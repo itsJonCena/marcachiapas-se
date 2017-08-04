@@ -17,11 +17,11 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;choice>
- *         &lt;element name="Artesanias" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="Alimentos" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="Cafe" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="Turismo" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="Ambar" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="Artesanias" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="Alimentos" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="Cafe" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="Turismo" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="Ambar" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
  *         &lt;element name="Otro" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *       &lt;/choice>
  *     &lt;/restriction>
@@ -43,15 +43,15 @@ import javax.xml.bind.annotation.XmlType;
 public class Sectores {
 
     @XmlElement(name = "Artesanias")
-    protected String artesanias;
+    protected Boolean artesanias;
     @XmlElement(name = "Alimentos")
-    protected String alimentos;
+    protected Boolean alimentos;
     @XmlElement(name = "Cafe")
-    protected String cafe;
+    protected Boolean cafe;
     @XmlElement(name = "Turismo")
-    protected String turismo;
+    protected Boolean turismo;
     @XmlElement(name = "Ambar")
-    protected String ambar;
+    protected Boolean ambar;
     @XmlElement(name = "Otro")
     protected String otro;
 
@@ -60,10 +60,10 @@ public class Sectores {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public String getArtesanias() {
+    public Boolean isArtesanias() {
         return artesanias;
     }
 
@@ -72,10 +72,10 @@ public class Sectores {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public void setArtesanias(String value) {
+    public void setArtesanias(Boolean value) {
         this.artesanias = value;
     }
 
@@ -84,10 +84,10 @@ public class Sectores {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public String getAlimentos() {
+    public Boolean isAlimentos() {
         return alimentos;
     }
 
@@ -96,10 +96,10 @@ public class Sectores {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public void setAlimentos(String value) {
+    public void setAlimentos(Boolean value) {
         this.alimentos = value;
     }
 
@@ -108,10 +108,10 @@ public class Sectores {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public String getCafe() {
+    public Boolean isCafe() {
         return cafe;
     }
 
@@ -120,10 +120,10 @@ public class Sectores {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public void setCafe(String value) {
+    public void setCafe(Boolean value) {
         this.cafe = value;
     }
 
@@ -132,10 +132,10 @@ public class Sectores {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public String getTurismo() {
+    public Boolean isTurismo() {
         return turismo;
     }
 
@@ -144,10 +144,10 @@ public class Sectores {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public void setTurismo(String value) {
+    public void setTurismo(Boolean value) {
         this.turismo = value;
     }
 
@@ -156,10 +156,10 @@ public class Sectores {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public String getAmbar() {
+    public Boolean isAmbar() {
         return ambar;
     }
 
@@ -168,10 +168,10 @@ public class Sectores {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Boolean }
      *     
      */
-    public void setAmbar(String value) {
+    public void setAmbar(Boolean value) {
         this.ambar = value;
     }
 

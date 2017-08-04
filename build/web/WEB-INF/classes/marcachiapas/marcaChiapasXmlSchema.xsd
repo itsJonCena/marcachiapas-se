@@ -46,8 +46,7 @@ made subject to such option by the copyright holder.
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
             targetNamespace="http://xml.netbeans.org/schema/marcaChiapasXmlSchema"
     xmlns:tns="http://xml.netbeans.org/schema/marcaChiapasXmlSchema"
-    elementFormDefault="qualified">
-    <xsd:element name="requisitosType" type="tns:Requisitos"/>
+    elementFormDefault="qualified"><xsd:element name="requisitosType" type="tns:Requisitos"/>
     <xsd:element name="getInfoType" type="xsd:int"/>
     <xsd:element name="formularioRegistroType" type="tns:formularioRegistro"/>
     <xsd:element name="registroResponseType" type="tns:registroResponse"/>
@@ -212,11 +211,11 @@ made subject to such option by the copyright holder.
     </xsd:complexType>
     <xsd:complexType name="Sectores">
         <xsd:choice>
-            <xsd:element name="Artesanias" type="xsd:string"/>
-            <xsd:element name="Alimentos" type="xsd:string"/>
-            <xsd:element name="Cafe" type="xsd:string"/>
-            <xsd:element name="Turismo" type="xsd:string"/>
-            <xsd:element name="Ambar" type="xsd:string"/>
+            <xsd:element name="Artesanias" type="xsd:boolean"/>
+            <xsd:element name="Alimentos" type="xsd:boolean"/>
+            <xsd:element name="Cafe" type="xsd:boolean"/>
+            <xsd:element name="Turismo" type="xsd:boolean"/>
+            <xsd:element name="Ambar" type="xsd:boolean"/>
             <xsd:element name="Otro" type="xsd:string"/>
         </xsd:choice>
     </xsd:complexType>

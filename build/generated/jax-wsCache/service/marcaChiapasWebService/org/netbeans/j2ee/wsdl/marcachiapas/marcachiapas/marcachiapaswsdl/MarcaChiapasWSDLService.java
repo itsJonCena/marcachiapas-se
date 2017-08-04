@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "marcaChiapasWSDLService", targetNamespace = "http://j2ee.netbeans.org/wsdl/MarcaChiapas/marcaChiapas/marcaChiapasWSDL", wsdlLocation = "file:/Users/Alex/NetBeansProjects/MarcaChiapas/src/conf/xml-resources/web-services/marcaChiapasWebService/wsdl/marcaChiapasWSDL.wsdl")
+@WebServiceClient(name = "marcaChiapasWSDLService", targetNamespace = "http://j2ee.netbeans.org/wsdl/MarcaChiapas/marcaChiapas/marcaChiapasWSDL", wsdlLocation = "file:/Users/Alex/marcachiapas-se/src/conf/xml-resources/web-services/marcaChiapasWebService/wsdl/marcaChiapasWSDL.wsdl")
 public class MarcaChiapasWSDLService
     extends Service
 {
@@ -30,7 +30,7 @@ public class MarcaChiapasWSDLService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("file:/Users/Alex/NetBeansProjects/MarcaChiapas/src/conf/xml-resources/web-services/marcaChiapasWebService/wsdl/marcaChiapasWSDL.wsdl");
+            url = new URL("file:/Users/Alex/marcachiapas-se/src/conf/xml-resources/web-services/marcaChiapasWebService/wsdl/marcaChiapasWSDL.wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
