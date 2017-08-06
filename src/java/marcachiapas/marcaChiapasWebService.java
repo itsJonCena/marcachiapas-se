@@ -34,7 +34,8 @@ public class marcaChiapasWebService {
         Requisitos.Atributos atr = new Requisitos.Atributos();
         //atr = req.getAtributos();
         atr.setInfo("Los atributos básicos para obtener el Sello Distintivo son los siguientes:");
-        atr.setProducto("Domicilio fiscal en Chiapas.");
+        atr.setProducto("Producto o servicio representativo de la identidad Chiapaneca.");
+        atr.setDomicilio("Domicilio fiscal en Chiapas.");
         atr.setOrigen("Más del 50% de la materia prima del producto de origen Chiapaneco.");
         req.setAtributos(atr);
         
